@@ -3,7 +3,6 @@
     box-sizing: border-box;     
 }
 /* Propiedad Media Querys */
-
 @media only screen and (max-width: 498px) {
     body {
         background-color: #ffffff;
@@ -49,7 +48,6 @@
     }
 }
 /* Propiedad Texto del logo */
-
 .logo-text {
     font-family: 'Edu VIC WA NT Beginner', sans-serif; /* Cambia la fuente */
     font-size: 10px; /* Cambia el tamaño del texto */
@@ -60,14 +58,12 @@
     padding: 14px;
 }
 /* Propiedad Carrusel */
-
 .carousel-item img {
     max-height: 600px; /* Altura máxima para las imágenes */
     width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
     object-fit: cover; /* Ajusta la imagen para llenar el contenedor sin distorsionar */
     object-position: center; /* Centra la imagen */
 }
-
 .carousel-caption h5 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
@@ -75,7 +71,6 @@
     padding: 10px;
     border-radius: 5px;
 }
-
 .carousel-caption p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -84,26 +79,21 @@
     border-radius: 5px;
 }
 /* Propiedad Testimonios */
-
 .testimonials .card {
     border-radius: 1rem;
     overflow: hidden;
 }
-
 .testimonials .card-body {
     padding: 2rem;
 }
-
 .testimonials .card-title {
     font-size: 1.25rem;
     font-weight: bold;
 }
-
 .testimonials .card-text {
     font-size: 1rem;
     color: #555;
 }
-
 .testimonials img {
     border: 2px solid #e9ecef;
     padding: 5px;
@@ -118,8 +108,102 @@ form .btn-primary {
     padding: 0.75rem 1.5rem; /* Espaciado interno del botón */
     transition: background-color 0.3s; /* Transición suave para el color de fondo */
 }
-
 form .btn-primary:hover {
     background-color: #7bc88c; /* Color de fondo en estado hover */
     color: #fff; /* Color del texto en estado hover */
+}
+/* Propiedades del catalogo */
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+}
+.catalog .card {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.catalog .card-img-top {
+    object-fit: cover;
+    height: 200px; /* Ajusta la altura según sea necesario */
+}
+.catalog .card-body {
+    padding: 1.5rem;
+}
+.catalog .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.catalog .card-text {
+    font-size: 1rem;
+    color: #555;
+}
+.catalog .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.catalog .btn-primary:hover {
+    background-color: #0056b3;
+}
+.catalog .btn-primary {
+    background-color: #050505; /* Cambia este valor al color deseado para el fondo del botón */
+    border: none; /* Elimina el borde si es necesario */
+    color: #fff; /* Cambia el color del texto del botón */
+}
+.catalog .btn-primary:hover {
+    background-color: #7bc88c; /* Cambia este valor al color deseado para el fondo del botón en estado hover */
+    color: #fff; /* Asegúrate de que el color del texto sea legible sobre el nuevo color de fondo */
+}
+/* Propiedades del blog */
+.blog-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.blog-titulo{
+    text-align: center;
+}
+.blog-entrada {
+    width: 300px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.blog-contenido {
+    padding: 15px;
+}
+.blog-contenido h2 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+.blog-contenido .fecha {
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 1em;
+}
+.blog-contenido p {
+    line-height: 1.6;
+}
+.img-blog {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.blog-contenido .leermas {
+    display: inline-block;
+    background-color: #050505;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.blog-contenido .leermas:hover {
+    background-color: #7bc88c;
 }
