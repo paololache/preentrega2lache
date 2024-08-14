@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Blog</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar bg-dark navbar-expand-lg navbar-light bg-light" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Vela Crea</a>
+                <!-- <img src="images/velacrealogo.png" alt="Bootstrap" width="50" height="40"> -->
+                <!-- Botón de menú para pantallas pequeñas -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Enlaces del menú -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="catalogo.html">Nuestro Catálogo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="blog.html">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- <h1 class="blog-titulo">Bievenido a nuestro Blog</h1> -->
+    </header> 
+    <main class="blog-main">
+        <article class="blog-entrada">
+            <img src="../images/c_item1.jpeg" alt="Item1" class="img-blog">
+            <div class="blog-contenido">
+                <h2>Mi Primera Historia</h2>
+                <p class="fecha">Fecha de publicación: 10 de Julio de 2024</p>
+                <p class="noticia1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam minus, fugit magnam iure voluptate in natus ad rem eum accusamus! Ullam esse quis dicta. Eaque velit ratione ab modi hic!</p>
+                <a href="#" class="leermas">Leer Más</a>
+            </div>        
+        </article>
+        <article class="blog-entrada">
+            <img src="../images/c_item2.jpeg" alt="Item2" class="img-blog">
+            <div class="blog-contenido">
+                <h2>Mi Segunda Historia</h2>
+                <p class="fecha">Fecha de publicación: 11 de Julio de 2024</p>
+                <p class="noticia2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam minus, fugit magnam iure voluptate in natus ad rem eum accusamus! Ullam esse quis dicta. Eaque velit ratione ab modi hic!</p>
+                <a href="#" class="leermas">Leer Más</a>
+            </div>        
+        </article>
+    </article>
+    <article class="blog-entrada">
+        <img src="../images/c_item3.jpeg" alt="Item3" class="img-blog">
+        <div class="blog-contenido">
+            <h2>Mi Tercera Historia</h2>
+            <p class="fecha">Fecha de publicación: 24 de Junio de 2024</p>
+            <p class="noticia3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam minus, fugit magnam iure voluptate in natus ad rem eum accusamus! Ullam esse quis dicta. Eaque velit ratione ab modi hic!</p>
+            <a href="#" class="leermas">Leer Más</a>
+        </div>        
+    </article>
+    </main>
+    <footer class="bg-dark text-white pt-4">
+        <div class="container">
+            <div class="row">
+                <!-- Sección de información de contacto -->
+                <div class="col-md-4 mb-3">
+                    <h5>Contacto</h5>
+                    <p><i class="fas fa-map-marker-alt"></i> Calle Falsa 123, Lima, Perú</p>
+                    <p><i class="fas fa-phone"></i> +123 456 7890</p>
+                    <p><i class="fas fa-envelope"></i> contacto@velacrea.com</p>
+                </div>
+                <!-- Sección de enlaces rápidos -->
+                <div class="col-md-4 mb-3">
+                    <h5>Enlaces Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../index.html" class="text-white">Inicio</a></li>
+                        <li><a href="catalogo.html" class="text-white">Nuestro Catálogo</a></li>
+                        <li><a href="blog.html" class="text-white">Blog</a></li>
+                    </ul>
+                </div>
+                <!-- Sección de redes sociales -->
+                <div class="col-md-4 mb-3">
+                    <h5>Síguenos en:</h5>
+                    <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white me-2"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            <!-- Sección inferior del footer -->
+            <div class="row">
+                <div class="col-12 text-center mt-3">
+                    <p>&copy; 2024 Vela Crea. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+</body>
+</html>

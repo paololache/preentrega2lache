@@ -2,6 +2,8 @@
     padding: 0px;
     box-sizing: border-box;     
 }
+/* Propiedad Media Querys */
+
 @media only screen and (max-width: 498px) {
     body {
         background-color: #ffffff;
@@ -46,6 +48,7 @@
         display: none;
     }
 }
+/* Propiedad Texto del logo */
 
 .logo-text {
     font-family: 'Edu VIC WA NT Beginner', sans-serif; /* Cambia la fuente */
@@ -56,6 +59,8 @@
     letter-spacing: 6px;
     padding: 14px;
 }
+/* Propiedad Carrusel */
+
 .carousel-item img {
     max-height: 600px; /* Altura máxima para las imágenes */
     width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
@@ -78,6 +83,8 @@
     padding: 5px;
     border-radius: 5px;
 }
+/* Propiedad Testimonios */
+
 .testimonials .card {
     border-radius: 1rem;
     overflow: hidden;
@@ -101,4 +108,18 @@
     border: 2px solid #e9ecef;
     padding: 5px;
     background-color: #fff;
+}
+/* Propiedad Footer */
+form .btn-primary {
+    background-color: #050505; /* Color de fondo del botón */
+    border: none; /* Elimina el borde del botón */
+    color: #fff; /* Color del texto del botón */
+    border-radius: 0.25rem; /* Bordes redondeados del botón */
+    padding: 0.75rem 1.5rem; /* Espaciado interno del botón */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+}
+
+form .btn-primary:hover {
+    background-color: #7bc88c; /* Color de fondo en estado hover */
+    color: #fff; /* Color del texto en estado hover */
 }
