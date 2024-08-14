@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    box-sizing: border-box;     
+}
+
+@media (max-width: 768px) {
+    .carousel-container {
+        height: 300px; /* Altura reducida para móviles */
+    }
+
+    .carousel-item img {
+        max-height: 300px; /* Limita la altura de las imágenes en móviles */
+    }
+}
+/* Impresoras */
+@media print {
+    p {
+        display: none;
+    }
+}
