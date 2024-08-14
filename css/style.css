@@ -1,8 +1,36 @@
 * {
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;     
 }
+@media only screen and (max-width: 498px) {
+    body {
+        background-color: #ffffff;
+    }
+}
+@media only screen and (min-width: 499px) and (max-width: 960px) {
+    body {
+        background-color: #ffffff;
+    }
 
+    p {
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width: 961px) {
+    body {
+        background-color:  #ffffff;
+    }
+}
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: #070606;
+    }
+}
+@media only screen and (orientation: landscape), (min-width: 400px) {
+    body {
+        background-color: #070707;
+    }
+}
 @media (max-width: 768px) {
     .carousel-container {
         height: 300px; /* Altura reducida para móviles */
@@ -17,4 +45,60 @@
     p {
         display: none;
     }
+}
+
+.logo-text {
+    font-family: 'Edu VIC WA NT Beginner', sans-serif; /* Cambia la fuente */
+    font-size: 10px; /* Cambia el tamaño del texto */
+    font-weight: 350; /* Pone el texto en negrita */
+    /* color: #060605; Cambia el color del texto (tomato) */
+    text-transform: none; /* Convierte el texto a mayúsculas */
+    letter-spacing: 6px;
+    padding: 14px;
+}
+.carousel-item img {
+    max-height: 600px; /* Altura máxima para las imágenes */
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    object-fit: cover; /* Ajusta la imagen para llenar el contenedor sin distorsionar */
+    object-position: center; /* Centra la imagen */
+}
+
+.carousel-caption h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-caption p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+}
+.testimonials .card {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.testimonials .card-body {
+    padding: 2rem;
+}
+
+.testimonials .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.testimonials .card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.testimonials img {
+    border: 2px solid #e9ecef;
+    padding: 5px;
+    background-color: #fff;
 }
